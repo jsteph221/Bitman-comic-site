@@ -1,0 +1,841 @@
+body {
+	//background-image: url("/images/background.jpg")
+}
+
+a {
+  color: #00B7FF;
+}
+
+.errors{
+	color: #ff0000;
+	text-align: left;
+}
+
+/*============================================= LOG IN + CREAT ACCOUNT ===================================================*/
+#container {
+	width: 25%;
+	height: 25%;
+	margin: 0 auto;	
+	outline-style: solid;
+	outline-width: 5px;
+	outline-color: black;
+	background-color: white;
+	text-align: center;
+}
+
+#homepage_create {
+	position: absolute;
+	top: 30%;
+	left: 25%;
+	width: 20%;
+	height: 100px;
+	background-color: red;
+	outline-style: solid;
+	outline-width: 10px;
+	outline-color: black;
+	text-align: center;
+}
+#homepage_view {
+	position: absolute;
+	top: 30%;
+	right: 25%;
+	width: 20%;
+	height: 100px;
+	background-color: blue;
+	outline-style: solid;
+	outline-width: 10px;
+	outline-color: black;
+	text-align: center;
+}
+
+
+/*============================================= CREATE PAGE ===================================================*/
+
+#logout_button {
+    position:absolute;
+    top: 2%;
+    right: 2%;
+}
+#view_button {
+    position:absolute;
+    top: 2%;
+    left: 2%;
+}
+#delete_button {
+    position:absolute;
+    bottom: 6%;
+    left: 2%;
+}
+#save_button {
+    position:absolute;
+    bottom: 6%;
+    right: 2%;
+}
+#publish_button {
+    position:absolute;
+    bottom: 2%;
+    right: 2%;
+}
+
+
+#createcontainer0 {
+	position: absolute;
+	width: 90%;
+	height: 500px;
+	background-color: #CBCBCB;
+	outline-style: solid;
+	outline-width: 7px;
+	outline-color: black;
+	text-align: center;
+}
+#createcontainer1 {
+	position: absolute;
+	top: 20%;
+	left: 8%;
+	width: 20%;
+	height: 300px;
+	background-color: red;
+	outline-style: solid;
+	outline-width: 3px;
+	outline-color: black;
+	text-align: center;
+}
+#createcontainer2 {
+	position: absolute;
+	top: 20%;
+	left: 29%;
+	width: 20%;
+	height: 300px;
+	background-color: yellow;
+	outline-style: solid;
+	outline-width: 3px;
+	outline-color: black;
+	text-align: center;
+}
+#createcontainer3 {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	width: 20%;
+	height: 300px;
+	background-color: green;
+	outline-style: solid;
+	outline-width: 3px;
+	outline-color: black;
+	text-align: center;
+}
+#createcontainer4 {
+	position: absolute;
+	top: 20%;
+	left: 71%;
+	width: 20%;
+	height: 300px;
+	background-color: blue;
+	outline-style: solid;
+	outline-width: 3px;
+	outline-color: black;
+	text-align: center;
+}
+#createupload1 {
+	position: absolute;
+	top: 76%;
+	left: 11%;
+	width: 20%;
+	text-align: center;
+}
+#createupload2 {
+	position: absolute;
+	top: 76%;
+	left: 32%;
+	width: 20%;
+	text-align: center;
+}
+#createupload3 {
+	position: absolute;
+	top: 76%;
+	left: 53%;
+	width: 20%;
+	text-align: center;
+}
+#createupload4 {
+	position: absolute;
+	top: 76%;
+	left: 74%;
+	width: 20%;
+	text-align: center;
+}
+
+#createtext1{
+	position: absolute;
+	top: 65%;
+	left: 8%;
+	width: 20%;
+	height: 65px;
+	background-color: red;
+	outline-style: solid;
+	outline-width: 3px;
+	outline-color: black;
+	text-align: center;
+}
+#createtext2{
+	position: absolute;
+	top: 65%;
+	left: 29%;
+	width: 20%;
+	height: 65px;
+	background-color: yellow;
+	outline-style: solid;
+	outline-width: 3px;
+	outline-color: black;
+	text-align: center;
+}
+#createtext3{
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	width: 20%;
+	height: 65px;
+	background-color: green;
+	outline-style: solid;
+	outline-width: 3px;
+	outline-color: black;
+	text-align: center;
+}
+#createtext4{
+	position: absolute;
+	top: 65%;
+	left: 71%;
+	width: 20%;
+	height: 65px;
+	background-color: blue;
+	outline-style: solid;
+	outline-width: 3px;
+	outline-color: black;
+	text-align: center;
+}
+#uploadold {
+    position:absolute;
+    bottom: 6%;
+    right: 2%;
+}
+
+#tags {	
+	position: absolute;
+	bottom: 6%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+
+/*============================================= VIEW PAGE ===================================================*/
+
+#viewpage_1 {
+	position: absolute;
+	top: 3%;
+	left: 40%;
+	height: 65px;
+	background-color: white;
+	outline-style: solid;
+	outline-width: 7px;
+	outline-color: black;
+	text-align: center;
+}
+#viewpage_2 {
+	position: absolute;
+	top: 20%;
+	left: 7%;
+	width: 85%;
+	height: 438px;
+	outline-style: solid;
+	outline-width: 7px;
+	outline-color: black;
+	text-align: left;
+	background-color: #CFCFCF;
+}
+#search{
+	position: absolute;
+	top: 15%;
+	left: 7%;
+	width: 85%;
+}
+#search_container_0{
+	position:absolute;
+	top:15%;
+	left:5%;
+	width: 15%;
+	height:30%;
+	outline-style: solid;
+	outline-width: 2px;
+	outline-color: black;
+	text-align: center;
+	background-color: white;
+}
+#search_container_1{
+	position:absolute;
+	top:15%;
+	left:23%;
+	width: 15%;
+	height:30%;
+	outline-style: solid;
+	outline-width: 2px;
+	outline-color: black;
+	text-align: center;
+	background-color: white;
+}
+#search_container_2{
+	position:absolute;
+	top:15%;
+	left:41%;
+	width: 15%;
+	height:30%;
+	outline-style: solid;
+	outline-width: 2px;
+	outline-color: black;
+	text-align: center;
+	background-color: white;
+}
+
+#search_container_3{
+	position:absolute;
+	top:15%;
+	left:59%;
+	width: 15%;
+	height:30%;
+	outline-style: solid;
+	outline-width: 2px;
+	outline-color: black;
+	text-align: center;
+	background-color: white;
+}
+
+#search_container_4{
+	position:absolute;
+	top:15%;
+	left:77%;
+	width: 15%;
+	height:30%;
+	outline-style: solid;
+	outline-width: 2px;
+	outline-color: black;
+	text-align: center;
+	background-color: white;
+}
+#search_container_5{
+	position:absolute;
+	top:55%;
+	left:5%;
+	width: 15%;
+	height:30%;
+	outline-style: solid;
+	outline-width: 2px;
+	outline-color: black;
+	text-align: center;
+	background-color: white;
+}
+#search_container_6{
+	position:absolute;
+	top:55%;
+	left:23%;
+	width: 15%;
+	height:30%;
+	outline-style: solid;
+	outline-width: 2px;
+	outline-color: black;
+	text-align: center;
+	background-color: white;
+}
+#search_container_7{
+	position:absolute;
+	top:55%;
+	left:41%;
+	width: 15%;
+	height:30%;
+	outline-style: solid;
+	outline-width: 2px;
+	outline-color: black;
+	text-align: center;
+	background-color: white;
+}
+
+#search_container_8{
+	position:absolute;
+	top:55%;
+	left:59%;
+	width: 15%;
+	height:30%;
+	outline-style: solid;
+	outline-width: 2px;
+	outline-color: black;
+	text-align: center;
+	background-color: white;
+}
+
+#search_container_9{
+	position:absolute;
+	top:55%;
+	left:77%;
+	width: 15%;
+	height:30%;
+	outline-style: solid;
+	outline-width: 2px;
+	outline-color: black;
+	text-align: center;
+	background-color: white;
+}
+
+
+
+
+/*====================================== NEW LOGIN / CREATE ACCOUNT TABLE ======================================*/
+.centered-table {
+   margin-left: auto;
+   margin-right: auto;
+}
+
+td 
+{
+    height: 30px; 
+    width:50px;
+}
+.centered-table td 
+{
+    text-align:right; 
+    vertical-align:middle;
+}
+#btnSubmit{
+    position: relative;
+    right: 0px;
+    left: 0px;
+    width: 80px;
+    border: 3px;
+    padding: 10px;
+}
+#btnCreate{
+    position: relative;
+    right: 0px;
+    left: 30px;
+    width: 120px;
+    border: 3px solid #000000;
+    padding: 10px;
+}
+
+/*============================================= PLAYBACK PAGE ===================================================*/
+#PBtext1{
+	position: absolute;
+	top: 65%;
+	left: 8%;
+	width: 20%;
+	height: 65px;
+	background-color: white;
+	outline-style: solid;
+	outline-width: 3px;
+	outline-color: black;
+	text-align: center;
+}
+#PBtext2{
+	position: absolute;
+	top: 65%;
+	left: 29%;
+	width: 20%;
+	height: 65px;
+	background-color: white;
+	outline-style: solid;
+	outline-width: 3px;
+	outline-color: black;
+	text-align: center;
+}
+#PBtext3{
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	width: 20%;
+	height: 65px;
+	background-color: white;
+	outline-style: solid;
+	outline-width: 3px;
+	outline-color: black;
+	text-align: center;
+}
+#PBtext4{
+	position: absolute;
+	top: 65%;
+	left: 71%;
+	width: 20%;
+	height: 65px;
+	background-color: white;
+	outline-style: solid;
+	outline-width: 3px;
+	outline-color: black;
+	text-align: center;
+}
+#PBtags{	
+	position: absolute;
+	bottom: 13%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+#publishedlist{
+	position: absolute;
+	top: 80%;
+	left: 8%;
+	width: 20%;
+	height: 65px;
+}
+#comics {
+	margin:0 0 30px 0;
+}
+	#comics table {
+		border-collapse:separate;
+		border-spacing:1px;
+		background:#CCC;
+	}
+		#comics table th {
+			background:#EEE;
+			font-weight:600;
+			padding:10px 20px;
+			text-align:center;
+		}
+		#comics table tbody {
+			padding:0; margin:0;
+			border-collapse:collapse;
+			border-spacing:0px;
+		}
+			#comics table td {
+				background:#FFF;
+				padding:5px 10px;
+				text-align:center;
+			}
+
+/*============================================= PROFILE PAGE ===================================================*/
+#user_name{
+	position: relative;
+	top: 2%;
+	left: 5px;
+	color: white;
+}
+#profile_picture{
+	position: relative;
+	top: 5px;
+	left: 5px;
+	width: 120px;
+	height: 120px;
+	background-color: white;
+	outline-style: solid;
+	outline-width: 5px;
+	outline-color: black;
+}
+#profile_options{
+	position: relative;
+	top: 15px;
+	left: 5px;
+	width: 20%;
+	text-align: left;
+}
+
+#profile_create {
+	position: absolute;
+	top: 100px;
+	left: 30%;
+	width: 40%;
+	height: 70px;
+	background-color: #E94D4D;
+	outline-style: solid;
+	outline-width: 10px;
+	outline-color: black;
+	text-align: center;
+}
+#profile_create:hover{
+	background-color: white;
+}
+#profile_view {
+	position: absolute;
+	top: 225px;
+	left: 30%;
+	width: 40%;
+	height: 70px;
+	background-color: #4848E2;
+	outline-style: solid;
+	outline-width: 10px;
+	outline-color: black;
+	text-align: center;
+}
+#profile_view:hover{
+	background-color: white;
+}
+#profile_mycomics{
+	position: absolute;
+	top: 500px;
+	left: 30%;
+	width: 40%;
+	background-color: #CFCFCF;
+	outline-style: solid;
+	outline-width: 10px;
+	outline-color: black;
+	text-align: center;
+}
+
+/*============================================= PROFILE PICTURE PAGE ========================================*/
+#preview{
+	position: absolute;
+	top:100px;
+	left: 45%;
+}
+#preview_picture{
+	position: absolute;
+	top: 150px;
+	left: 45%;
+	width: 120px;
+	height: 120px;
+	background-color: white;
+	outline-style: solid;
+	outline-width: 5px;
+	outline-color: black;
+}
+#picture_upload{
+	position: absolute;
+	top: 278px;
+	left: 45%;
+}
+#uploadpp{
+	position: absolute;
+	top: 303px;
+	left: 45%;
+}
+
+
+
+/*============================================= LOG IN + CREATE ACCOUNT ========================================*/
+
+.navbar-relative {
+  position: relative;
+  z-index: 2;
+}
+
+#register-navbar a {
+  color: #FFF;
+}
+
+.register-background {
+  background-image: url("/images/background.jpg");
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+
+.register-background .filter-black::after {
+  background-color: rgba(0, 0, 0, 0.5);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.register-background .container {
+  margin-top: 11%;
+  position: relative;
+  z-index: 3;
+}
+
+.register-footer {
+  bottom: 20px;
+  color: #fff;
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+}
+
+.register-card {
+  background-color: #F0EDED;
+  border-radius: 8px;
+  color: black;
+  max-width: 350px;
+  margin: 20px 0 70px;
+  min-height: 400px;
+  padding: 30px;
+}
+
+.register-card label {
+  margin-top: 15px;
+}
+
+.register-card .title {
+  color: black;
+  text-align: center;
+}
+
+.register-card .error {
+  color: #ff0000;
+  text-align: center;
+}
+
+.register-card .btn {
+  margin-top: 30px;
+}
+
+.register-card .forgot {
+  text-align: center;
+}
+
+
+/*============================================= PROFILE PAGE =================================================*/
+
+.profile-background {
+  background-image: url("/images/profile2.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 300px;
+  position: relative;
+  margin-top: -110px;
+}
+
+.profile-background .filter-black::after {
+  background-color: rgba(0, 0, 0, 0.5);
+  content: "";
+  display: block;
+  height: 300px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.profile-content {
+  position: relative;
+}
+
+.owner .avatar {
+  margin-top: -85px;
+  padding: 15px;
+  position: relative;
+  z-index: 3;
+}
+
+.owner .name h3 {
+  margin-top: 5px;
+}
+
+#profile_mycomicsnew{
+	position: absolute;
+	top: 500px;
+	left: 30%;
+	text-align: center;
+}
+
+/*============================================= PROFILE PIC =================================================*/
+
+.navbar-relative {
+  position: relative;
+  z-index: 2;
+}
+
+#profilepic-navbar a {
+  color: #939393;
+}
+
+
+.profilepic-content {
+  position: relative;
+}
+
+.profilepic-background {
+  //background-image: url("/images/profile2.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 300px;
+  position: relative;
+  margin-top: -110px;
+}
+
+/*============================================= CREATE PAGE NEW =================================================*/
+
+.createpage-background {
+  background-position: center center;
+  background-size: cover;
+  height: 300px;
+  position: relative;
+  margin-top: 110px;
+}
+
+
+.comic_img1{
+	width: 100%;
+	height: 300px;
+	background-color: red;
+	outline-style: solid;
+	outline-width: 3px;
+	outline-color: black;
+	text-align: center;
+}
+.comic_img2{
+	width: 100%;
+	height: 300px;
+	background-color: yellow;
+	outline-style: solid;
+	outline-width: 3px;
+	outline-color: black;
+	text-align: center;
+}
+.comic_img3{
+	width: 100%;
+	height: 300px;
+	background-color: green;
+	outline-style: solid;
+	outline-width: 3px;
+	outline-color: black;
+	text-align: center;
+}
+.comic_img4{
+	width: 100%;
+	height: 300px;
+	background-color: blue;
+	outline-style: solid;
+	outline-width: 3px;
+	outline-color: black;
+	text-align: center;
+}
+.comic_text{
+	width: 100%;
+	height: 65px;
+	background-color: white;
+	outline-style: solid;
+	outline-width: 3px;
+	outline-color: black;
+}
+.pb_text{
+	width: 100%;
+	height: 65px;
+	background-color: white;
+	outline-style: solid;
+	outline-width: 3px;
+	outline-color: black;
+	text-align: left;
+}
+.pb_errors{
+	color: #ff0000;
+	//text-align: center;
+}
+
+.progressnew {
+  height: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background-color: #FF8F5E;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+          box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+
+}
+.progress-bar-custom {background: rgba(66, 139, 202, 1);}
+
+
+

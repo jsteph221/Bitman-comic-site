@@ -1,0 +1,90 @@
+doctype html
+html
+    head
+        meta(charset="utf-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
+        title= title
+
+        meta(content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport')
+        meta(name="viewport" content="width=device-width")
+
+        script(src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js")
+        link(rel='stylesheet', href="../bootstrap3/css/bootstrap.css")
+        link(rel='stylesheet', href="/stylesheets/ct-paper.css")
+        link(rel='stylesheet', href='/stylesheets/style.css')
+
+        script(src="/javascripts/readURL.js")
+        script(src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js")
+        script(src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js")
+        
+        <!--     Fonts and icons     -->
+        link(href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet")
+        link(href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css')
+        link(href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css')
+
+    body
+
+        nav(class="navbar navbar-default navbar-fixed-top" role="navigation-demo" id="profilepic-navbar")
+          div(class="container")
+            <!-- Brand and toggle get grouped for better mobile display -->
+            div(class="navbar-header")
+              button(type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2")
+                span(class="sr-only") Toggle navigation
+                span(class="icon-bar")
+                span(class="icon-bar")
+                span(class="icon-bar")
+              a(class="navbar-brand") BIT STRIPS
+        
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            div(class="collapse navbar-collapse" id="navigation-example-2")
+              ul(class="nav navbar-nav navbar-right")
+                li
+                    a(class="btn btn-simple", href="/createpage") Create
+
+                li
+                    a(class="btn btn-simple", href="/viewpage") View
+                
+                li
+                    a(class="btn btn-simple", href="/profilepage") Profile
+
+                li
+                    a(class="btn btn-simple", href="/logout") Logout
+
+
+
+        div(class="wrapper")
+            div(class="profilepic-background")
+            div(class="profile-content section-nude")
+                div(class="container")
+
+                    form#fileUpload(method="post", action="/profilepic", enctype="multipart/form-data")
+
+                        div(class="row owner")
+                            div(class="col-md-2 col-md-offset-5 col-sm-4 col-sm-offset-4 col-xs-6 col-xs-offset-3 text-center")
+                                div(class="avatar")
+                                    h3 Preview
+                                    img(id="cellpp" src=photoSrc class="img-circle img-no-padding img-responsive")
+
+                                div(class="name")
+                                    input(type="file" name="myFile" class="btn btn-simple btn-default" accept="image/*" onchange="readURLpp(this)")
+                                    br
+                                
+                        div(class="row")
+                            div(class="col-md-6 col-md-offset-3 text-center")
+                                
+                                textarea(type="text", rows="4", cols="36", name="userbio", placeholder="About me") #{aboutme}
+                                br
+                                br
+                                button(class="btn btn-default") Update Profile
+                                        
+
+
+script(src="/javascripts/jquery-1.10.2.js" type="text/javascript")
+script(src="/javascripts/jquery-ui-1.10.4.custom.min.js" type="text/javascript")
+
+script(src="../bootstrap3/js/bootstrap.js" type="text/javascript")
+
+<!--  Plugins -->
+script(src="/javascripts/bootstrap-select.js")
+
+script(src="/javascripts/ct-paper.js")

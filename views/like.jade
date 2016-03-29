@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+
+#container.col
+    block content
+        h1 Are you sure you want to logout?
+        h3 Type "Yes" or "No"
+
+        form(name="logout", method="post", action="/logout")
+            p 
+                input(type="text", name="answer")
+
+            p
+                button(type="submit") submit
